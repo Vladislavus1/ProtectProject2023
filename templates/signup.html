@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+{% block content %}
+<form action="{{ url_for('signup') }}" method="post">
+    <label for="username">How can I contact you?</label><br>
+    <input type="text" name="username" id="username" placeholder="Enter your username..."><br><br>
+    <label for="password">Enter your password?</label><br>
+    <input type="password" name="password" id="password" placeholder="Enter your password..."><br><br>
+    <input type="submit" value="Submit" id="submit">
+</form>
+{% if alert %}
+{% endif %}
+{% endblock %}

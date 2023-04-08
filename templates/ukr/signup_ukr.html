@@ -1,0 +1,12 @@
+{% extends "ukr/main_ukr.html" %}
+{% block content %}
+<form action="{{ url_for('signup_ukr') }}" method="post">
+    <label for="username">Як я можу звертатися до вас?</label><br>
+    <input type="text" name="username" id="username" placeholder="Введіть ім'я користувача..."><br><br>
+    <label for="password">Введіть свій пароль.</label><br>
+    <input type="password" name="password" id="password" placeholder="Введіть пароль..."><br><br>
+    <input type="submit" value="Submit" id="submit">
+</form>
+{% if alert %}
+{% endif %}
+{% endblock %}

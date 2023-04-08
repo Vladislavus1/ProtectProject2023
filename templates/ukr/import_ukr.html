@@ -1,0 +1,15 @@
+{% extends "ukr/main_ukr.html" %}
+
+{% block content %}
+<form action="{{ url_for('import_image_ukr') }}" enctype="multipart/form-data" method='POST'>
+    <label for="option">Виберіть варіант</label><br>
+    <select id="option" name="option">
+        <option class="btn btn-primary btn-md">Детекція всього тіла</option>
+        <option class="btn btn-primary btn-md">Детекція обличчя</option>
+    </select>
+    <br>
+    <input name="img" type="file" id="file_input">
+    <input type="submit" class="btn btn-primary btn-md" value="Відправити">
+</form>
+{% endblock %}
+

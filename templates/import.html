@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+
+{% block content %}
+<form action="{{ url_for('import_image') }}" enctype="multipart/form-data" method='POST'>
+    <label for="option">Choose an option</label><br>
+    <select id="option" name="option">
+        <option class="btn btn-primary btn-md">Full body detection</option>
+        <option class="btn btn-primary btn-md">Only Face detection</option>
+    </select>
+    <br>
+    <input name="img" type="file" id="file_input" value="Choose a photo">
+    <input type="submit" class="btn btn-primary btn-md" value="Send">
+</form>
+{% endblock %}
+

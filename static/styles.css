@@ -1,0 +1,188 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  font-size: 25px
+}
+
+h1 {
+  background: #ebe0c5;
+  font-weight: bolder;
+  border-radius: 15px;
+
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+#import_bt {
+  background: #eba523;
+  border-radius: 5px;
+  font-size: 60px;
+  position: relative;
+  left: 305px;
+  text-decoration: none;
+
+
+}
+
+#logout_bt {
+  color: #007bff;
+  background: #c5e9eb;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  left: 650px;
+}
+
+#login_bt {
+  color: #007bff;
+  background: #c5e9eb;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+}
+
+#signup_bt {
+  color: #007bff;
+  background: #c5e9eb;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+#logout_bt:hover {
+/*   text-decoration: overline;   */
+    background: #96b1b3;
+    background-size
+}
+
+#signup_bt:hover {
+/*   text-decoration: overline;   */
+    background: #96b1b3;
+    background-size
+}
+
+#login_bt:hover {
+/*   text-decoration: overline;   */
+    background: #96b1b3;
+    background-size
+}
+
+#description {
+  background: #d2c1a3;
+  border: #695736;
+  border-radius: 15px;
+}
+
+#png {
+  color: black;
+  text-decoration: none;
+}
+
+#jpg {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+#import_bt {
+  background: #eba523;
+  border-radius: 5px;
+  font-size: 60px;
+  position: relative;
+  left: 305px;
+  text-decoration: none;
+
+
+}
+
+#logout_bt {
+  color: #007bff;
+  background: #c5e9eb;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  left: 650px;
+}
+
+#login_bt {
+  color: #007bff;
+  background: #c5e9eb;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  left: 650px;
+  top: -4px;
+}
+
+#signup_bt {
+  color: #007bff;
+  background: #c5e9eb;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  left: 730px;
+  top: 25px;
+}
+
+
+#logout_bt:hover {
+/*   text-decoration: overline;   */
+    background: #96b1b3;
+    background-size
+}
+
+#signup_bt:hover {
+/*   text-decoration: overline;   */
+    background: #96b1b3;
+    background-size
+}
+
+#login_bt:hover {
+/*   text-decoration: overline;   */
+    background: #96b1b3;
+    background-size
+}
+
+#description {
+  background: #d2c1a3;
+  border: #695736;
+  border-radius: 15px;
+}
+
+#png {
+  color: black;
+  text-decoration: none;
+}
+
+#jpg {
+  color: black;
+  text-decoration: none;
+}
